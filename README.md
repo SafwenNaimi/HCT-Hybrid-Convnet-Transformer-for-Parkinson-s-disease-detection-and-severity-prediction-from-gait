@@ -34,8 +34,8 @@ The algorithm will generate the following output files:
 
 
     ├── output(dir)
-        ├── train_classifier_month_day (dir)   
-            ├── hour_minutes (dir)
+        ├── train_classifier_month_day(dir)   
+            ├── hour_minutes(dir)
 	            ├──  model.json : JSON file of the model.               
 	            ├──  res_pat.csv: results of accuracy, sensitivity and specificity by patients.
                 ├──  res_seg.csv: results of accuracy, sensitivity and specificity by segments.	                
@@ -50,8 +50,8 @@ The algorithm will generate the following output files:
 ├── output (dir)
 
     ├── output (dir)
-        ├── train_severity_month_day (dir)   
-            ├── hour_minutes (dir)
+        ├── train_severity_month_day(dir)   
+            ├── hour_minutes(dir)
 	            ├──  confusion_matrix.csv: Confusion matrix for severity prediction.
 	            ├──  gt.csv: ground truth level for each patient.
 	            ├──  pred.csv: prediction level for each patient.
