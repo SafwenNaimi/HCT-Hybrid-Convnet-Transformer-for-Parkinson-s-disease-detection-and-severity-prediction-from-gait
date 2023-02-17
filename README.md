@@ -4,6 +4,8 @@
 * python 3.7
 * cuda
 * Install the prerequisite's libraries with "pip install -r requirements.txt"
+* pip install -r requirements.txt
+
 
 ## Dataset
 The dataset used in the paper is from Physionet. It can be downloaded from (1). A sample from each group of researchers contributed in the dataset is available in the subfolder data. 
