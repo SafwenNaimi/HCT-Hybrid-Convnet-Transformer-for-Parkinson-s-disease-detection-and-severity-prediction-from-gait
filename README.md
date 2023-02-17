@@ -57,5 +57,10 @@ The algorithm will generate the following output files:
             ├──  res_seg.csv: results of accuracy by segments.	                
             ├──  training_i.csv: training/validation loss and accuracy for the i_th folder (i = [1..10]).   
 	    ├──  weights_i.hdf5 : weights of the model for the i_th folder (i = [1..10]).   
+
+## References:
+
+(1): https://physionet.org/content/gaitpdb/1.0.0/
 	    
+	
 
