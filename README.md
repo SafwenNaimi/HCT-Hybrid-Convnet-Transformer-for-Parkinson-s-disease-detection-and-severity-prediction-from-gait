@@ -32,17 +32,28 @@ To run experiments for our Two-class ConvNet-Transformer model, the entry point 
 The algorithm will generate the following output files:
 ├── output (dir)
 
-    ├── exp_name_Day_Month (when the program is launched)     
-        ├── hour_minutes (when the program is launched)  
-            ├──  weights.hdf5 : weights of the model    
-            ├──  res_seg.csv: results of accuracy, sensitivity and specificity by segments.	    
-            ├──  res_pat.csv: results of accuracy, sensitivity and specificity by patients.     
-            ├──  training_i.csv: training loss and accuracy for each fold i. For 10-fold cross-validation, 10 files.     
-            ├──  model.json: Model architecture (keras)
-            ├──  gt.csv: and pred.csv  ( for severity prediction) ground truth level and prediction level for each patient.
-            ├──  confusion_matrix.csv: Confusion matrix for severity prediction
+    ├── train_classifier_month_day   
+        ├── hour_minutes
+	    ├──  model.json : JSON file of the model.               
+	    ├──  res_pat.csv: results of accuracy, sensitivity and specificity by patients.
+            ├──  res_seg.csv: results of accuracy, sensitivity and specificity by segments.	                
+            ├──  training_i.csv: training/validation loss and accuracy for the i_th folder (i = [1..10]).   
+	    ├──  weights_i.hdf5 : weights of the model for the i_th folder (i = [1..10]).   
+
 
 To run experiments for our Multi-class ConvNet-Transformer model, the entry point is `Multi-Class_model.py` file.
+The algorithm will generate the following output files:
+├── output (dir)
 
-
+    ├── train_severity_month_day   
+        ├── hour_minutes
+	    ├──  confusion_matrix.csv: Confusion matrix for severity prediction.
+	    ├──  gt.csv: ground truth level for each patient.
+	    ├──  pred.csv: prediction level for each patient.
+	    ├──  model.json : JSON file of the model.               
+	    ├──  res_pat.csv: results of accuracy by patients.
+            ├──  res_seg.csv: results of accuracy by segments.	                
+            ├──  training_i.csv: training/validation loss and accuracy for the i_th folder (i = [1..10]).   
+	    ├──  weights_i.hdf5 : weights of the model for the i_th folder (i = [1..10]).   
+	    
 
