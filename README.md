@@ -7,9 +7,9 @@
 ## Dataset
 The dataset used in the paper is from Physionet. It can be downloaded from (1). A sample from each group of researchers contributed in the dataset is available in the subfolder data. 
 Ga, Ju or Si – indicate the study from which the data originated:
-    * Ga - Galit Yogev et al (2) (dual tasking in PD; Eur J Neuro, 2005)
-    * Ju – Hausdorff et al (3) (RAS in PD; Eur J Neuro, 2007)
-    * Si - Silvi Frenkel-Toledo et al (4) (Treadmill walking in PD; Mov Disorders, 2005)
+* Ga - Galit Yogev et al (2) (dual tasking in PD; Eur J Neuro, 2005)
+* Ju – Hausdorff et al (3) (RAS in PD; Eur J Neuro, 2007)
+* Si - Silvi Frenkel-Toledo et al (4) (Treadmill walking in PD; Mov Disorders, 2005)
 * Co or Pt: Control subject or a PD Patient
 
 We also included demographics.xls that contains all the information about each example in the data.
