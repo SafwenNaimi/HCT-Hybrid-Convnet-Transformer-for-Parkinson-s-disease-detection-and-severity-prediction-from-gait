@@ -61,9 +61,14 @@ The algorithm will generate the following output files:
 ## References:
 
 (1): https://physionet.org/content/gaitpdb/1.0.0/
+
 (2): G. Yogev, N. Giladi, C. Peretz, S. Springer, E. S. Simon, and J. M. Hausdorff. “Dual tasking,
 gait rhythmicity, and Parkinson’s disease: Which aspects of gait are attention demanding?”
 In: European Journal of Neuroscience 22 (2005).
+
+(3): J. M. Hausdorff, J. Lowenthal, T. Herman, L. Gruendlinger, C. Peretz, and N. Giladi. “Rhyth- mic auditory stimulation modulates gait variability in Parkinson’s disease”. In: European Journal of Neuroscience 26 (2007).
+
+(4) S. Frenkel-Toledo, N. Giladi, C. Peretz, T. Herman, L. Gruendlinger, and J. M. Hausdorff. “Treadmill walking as an external pacemaker to improve gait rhythm and stability in Parkin- son’s disease”. In: Movement Disorders 20 (2005).
 	    
 	
 
