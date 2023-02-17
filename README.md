@@ -49,16 +49,17 @@ The algorithm will generate the following output files:
 
 ├── output (dir)
 
-    ├── train_severity_month_day   
-        ├── hour_minutes
-	    ├──  confusion_matrix.csv: Confusion matrix for severity prediction.
-	    ├──  gt.csv: ground truth level for each patient.
-	    ├──  pred.csv: prediction level for each patient.
-	    ├──  model.json : JSON file of the model.               
-	    ├──  res_pat.csv: results of accuracy by patients.
-        ├──  res_seg.csv: results of accuracy by segments.	                
-        ├──  training_i.csv: training/validation loss and accuracy for the i_th folder (i = [1..10]).   
-	    ├──  weights_i.hdf5 : weights of the model for the i_th folder (i = [1..10]).   
+    ├── output (dir)
+        ├── train_severity_month_day   
+            ├── hour_minutes
+	        ├──  confusion_matrix.csv: Confusion matrix for severity prediction.
+	        ├──  gt.csv: ground truth level for each patient.
+	        ├──  pred.csv: prediction level for each patient.
+	        ├──  model.json : JSON file of the model.               
+	        ├──  res_pat.csv: results of accuracy by patients.
+            ├──  res_seg.csv: results of accuracy by segments.	                
+            ├──  training_i.csv: training/validation loss and accuracy for the i_th folder (i = [1..10]).   
+	        ├──  weights_i.hdf5 : weights of the model for the i_th folder (i = [1..10]).   
 
 ## References:
 
