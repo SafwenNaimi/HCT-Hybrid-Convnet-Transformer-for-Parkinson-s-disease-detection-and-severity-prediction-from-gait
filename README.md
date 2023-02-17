@@ -3,11 +3,11 @@
 ## Prerequisites
 Python 3.8 or later with all requirements.txt dependencies installed. To install run:
 
-`
-python -m pip install -U pip
 
-pip install -r requirements.txt
-`
+`python -m pip install -U pip`
+
+`pip install -r requirements.txt`
+
 
 ## Dataset
 The dataset used in the paper is from Physionet. It can be downloaded from (1). A sample from each group of researchers contributed in the dataset is available in the subfolder data. 
