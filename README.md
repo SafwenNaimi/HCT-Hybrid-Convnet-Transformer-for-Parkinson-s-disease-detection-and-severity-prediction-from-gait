@@ -34,8 +34,8 @@ The algorithm will generate the following output files:
 
 
     ├── output(dir)
-        ├── train_classifier_month_day   
-            ├── hour_minutes
+        ├── train_classifier_month_day (dir)   
+            ├── hour_minutes (dir)
 	            ├──  model.json : JSON file of the model.               
 	            ├──  res_pat.csv: results of accuracy, sensitivity and specificity by patients.
                 ├──  res_seg.csv: results of accuracy, sensitivity and specificity by segments.	                
