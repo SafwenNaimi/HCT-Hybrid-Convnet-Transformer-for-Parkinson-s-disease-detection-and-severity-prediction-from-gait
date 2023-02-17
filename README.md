@@ -61,6 +61,9 @@ The algorithm will generate the following output files:
 ## References:
 
 (1): https://physionet.org/content/gaitpdb/1.0.0/
+(2): G. Yogev, N. Giladi, C. Peretz, S. Springer, E. S. Simon, and J. M. Hausdorff. “Dual tasking,
+gait rhythmicity, and Parkinson’s disease: Which aspects of gait are attention demanding?”
+In: European Journal of Neuroscience 22 (2005).
 	    
 	
 
