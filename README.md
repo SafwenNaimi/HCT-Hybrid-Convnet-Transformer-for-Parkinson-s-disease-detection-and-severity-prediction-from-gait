@@ -33,14 +33,14 @@ To run experiments for our Two-class ConvNet-Transformer model, the entry point 
 The algorithm will generate the following output files:
 
 
-├── output (dir)
-    ├── train_classifier_month_day   
-        ├── hour_minutes
-	    ├──  model.json : JSON file of the model.               
-	    ├──  res_pat.csv: results of accuracy, sensitivity and specificity by patients.
-        ├──  res_seg.csv: results of accuracy, sensitivity and specificity by segments.	                
-        ├──  training_i.csv: training/validation loss and accuracy for the i_th folder (i = [1..10]).   
-	    ├──  weights_i.hdf5 : weights of the model for the i_th folder (i = [1..10]).   
+    ├── output(dir)
+        ├── train_classifier_month_day   
+            ├── hour_minutes
+	        ├──  model.json : JSON file of the model.               
+	        ├──  res_pat.csv: results of accuracy, sensitivity and specificity by patients.
+            ├──  res_seg.csv: results of accuracy, sensitivity and specificity by segments.	                
+            ├──  training_i.csv: training/validation loss and accuracy for the i_th folder (i = [1..10]).   
+	        ├──  weights_i.hdf5 : weights of the model for the i_th folder (i = [1..10]).   
 
 
 To run experiments for our Multi-class ConvNet-Transformer model, the entry point is `Multi-Class_model.py` file.
