@@ -29,6 +29,19 @@ Each line in demographics.xls contains 19 columns:
 
 ## Getting Started
 To run experiments for our Two-class ConvNet-Transformer model, the entry point is `Two-Class_model.py` file.
+The algorithm will generate the following output files:
+├── output (dir)
+    ├── exp_name_Day_Month (when the program is launched) 
+        ├── hour_minutes (when the program is launched)  
+            ├──  weights.hdf5 : weights of the model
+            ├──  res_seg.csv: results of accuracy, sensitivity and specificity by segments.
+            ├──  res_pat.csv: results of accuracy, sensitivity and specificity by patients. 
+            ├──  training_i.csv: training loss and accuracy for each fold i. For 10-fold cross-validation, 10 files. 
+            ├──  model.json: Model architecture (keras)
+            ├──  gt.csv: and pred.csv  ( for severity prediction) ground truth level and prediction level for each patient.
+            ├──  confusion_matrix.csv: Confusion matrix for severity prediction
 
 To run experiments for our Multi-class ConvNet-Transformer model, the entry point is `Multi-Class_model.py` file.
+
+
 
