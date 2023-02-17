@@ -47,7 +47,7 @@ To run experiments for our Multi-class ConvNet-Transformer model, the entry poin
 
 The algorithm will generate the following output files:
 
-├── output (dir)
+
 
     ├── output (dir)
         ├── train_severity_month_day(dir)   
