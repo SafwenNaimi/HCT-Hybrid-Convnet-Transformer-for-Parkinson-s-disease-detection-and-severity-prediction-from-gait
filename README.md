@@ -2,8 +2,8 @@
 
 ## Prerequisites
 Python 3.8 or later with all requirements.txt dependencies installed. To install run:
-'python -m pip install -U pip'
-'pip install -r requirements.txt'
+`python -m pip install -U pip
+pip install -r requirements.txt`
 
 
 ## Dataset
