@@ -32,8 +32,8 @@ To run experiments for our Two-class ConvNet-Transformer model, the entry point 
 
 The algorithm will generate the following output files:
 
-├── output (dir)
 
+├── output (dir)
     ├── train_classifier_month_day   
         ├── hour_minutes
 	    ├──  model.json : JSON file of the model.               
