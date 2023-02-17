@@ -30,3 +30,5 @@ Each line in demographics.xls contains 19 columns:
 ## Getting Started
 To run experiments for our Two-class ConvNet-Transformer model, the entry point is `Two-Class_model.py` file.
 
+To run experiments for our Multi-class ConvNet-Transformer model, the entry point is `Multi-Class_model.py` file.
+
