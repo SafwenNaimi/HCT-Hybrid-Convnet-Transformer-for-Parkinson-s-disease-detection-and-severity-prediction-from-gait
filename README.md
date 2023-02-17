@@ -31,6 +31,7 @@ Each line in demographics.xls contains 19 columns:
 To run experiments for our Two-class ConvNet-Transformer model, the entry point is `Two-Class_model.py` file.
 
 The algorithm will generate the following output files:
+
 ├── output (dir)
 
     ├── train_classifier_month_day   
@@ -45,6 +46,7 @@ The algorithm will generate the following output files:
 To run experiments for our Multi-class ConvNet-Transformer model, the entry point is `Multi-Class_model.py` file.
 
 The algorithm will generate the following output files:
+
 ├── output (dir)
 
     ├── train_severity_month_day   
