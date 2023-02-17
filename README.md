@@ -1,10 +1,7 @@
 # HCT-Hybrid-Convnet-Transformer-architecture-for-PD-detection-and-severity-prediction
 
 ## Prerequisites
-* python 3.7
-* cuda
-* Install the prerequisite's libraries with "pip install -r requirements.txt"
-* pip install -r requirements.txt
+Python 3.8 or later with all requirements.txt dependencies installed
 
 
 ## Dataset
