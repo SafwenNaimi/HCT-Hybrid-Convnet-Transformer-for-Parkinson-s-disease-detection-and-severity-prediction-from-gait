@@ -1,1 +1,1 @@
-# HCT-Hybrid-Convnet-Transformer-architecture-for-Parkinson-s-disease-detection-and-severity-predicti
+# HCT-Hybrid-Convnet-Transformer-architecture-for-PD-detection-and-severity-prediction
