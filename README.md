@@ -50,8 +50,8 @@ The algorithm will generate the following output files:
 ├── output (dir)
 
     ├── output (dir)
-        ├── train_severity_month_day   
-            ├── hour_minutes
+        ├── train_severity_month_day (dir)   
+            ├── hour_minutes (dir)
 	            ├──  confusion_matrix.csv: Confusion matrix for severity prediction.
 	            ├──  gt.csv: ground truth level for each patient.
 	            ├──  pred.csv: prediction level for each patient.
