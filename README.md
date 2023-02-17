@@ -27,4 +27,6 @@ Each line in demographics.xls contains 19 columns:
 * Column     18:   Total force under the left foot
 * Column     19:   Total force under the right foot.
 
+## Getting Started
+To run experiments for our Two-class ConvNet-Transformer model, the entry point is `Two-Class_model.py` file.
 
