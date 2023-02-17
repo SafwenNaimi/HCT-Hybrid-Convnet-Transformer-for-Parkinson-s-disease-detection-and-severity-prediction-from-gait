@@ -37,8 +37,8 @@ The algorithm will generate the following output files:
         ├── hour_minutes
 	    ├──  model.json : JSON file of the model.               
 	    ├──  res_pat.csv: results of accuracy, sensitivity and specificity by patients.
-           ├──  res_seg.csv: results of accuracy, sensitivity and specificity by segments.	                
-           ├──  training_i.csv: training/validation loss and accuracy for the i_th folder (i = [1..10]).   
+             ├──  res_seg.csv: results of accuracy, sensitivity and specificity by segments.	                
+             ├──  training_i.csv: training/validation loss and accuracy for the i_th folder (i = [1..10]).   
 	    ├──  weights_i.hdf5 : weights of the model for the i_th folder (i = [1..10]).   
 
 
