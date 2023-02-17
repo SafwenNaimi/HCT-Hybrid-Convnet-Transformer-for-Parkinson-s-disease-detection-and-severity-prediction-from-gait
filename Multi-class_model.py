@@ -139,7 +139,7 @@ class Data:
         self.features_to_load = features
         self.nb_features = self.features_to_load.shape[0]
         ###############
-        self.X_data = np.array([])  # np.ones((self.nb_gait_cycle,self.nb_features))
+        self.X_data = np.array([])  
         self.y_data = np.array([])
         self.nb_data_per_person = np.array([0])
 
@@ -179,7 +179,7 @@ class Data:
         :param total_fold: Total number of fols
         :return:
         '''
-        proportion = 1 / total_fold  # .10 for 10 folds
+        proportion = 1 / total_fold  # .10 for 10 folds cross-validation
         X = [self.X_ctrl, self.X_park]
         y = [self.y_ctrl, self.y_park]
         patients = [self.nb_data_per_person[:self.last_ctrl_patient], self.nb_data_per_person[self.last_ctrl_patient:]] # counts separated by classe
@@ -208,8 +208,8 @@ class Data:
 
 
             else:
-                start_patient = start_patient #+ patients[0].shape[0]  # patients0.shape 0 is the number of patients in the first class
-                end_patient =  end_patient# +patients[0].shape[0]
+                start_patient = start_patient 
+                end_patient =  end_patient
                 self.X_val = np.vstack((self.X_val, X[i][id_start:id_end,:,:]))
                 self.X_train = np.vstack((self.X_train, np.delete(X[i], np.arange(id_start,id_end) , 0) ))
 
@@ -391,7 +391,7 @@ class Results_level:
         self.gt = np.array([])
         self.pred = np.array([])
         self.dir = dir
-    def add_result( self,res, accuracy,  segments = True  ):
+    def add_result( self,res, accuracy,  segments = True):
 
         all = np.array([ accuracy])
 
@@ -414,8 +414,8 @@ class Results_level:
         ## per segments
         pred_seg = model.predict(np.split(x_val, x_val.shape[2], axis=2))
         y_val_arg = np.argmax(y_val, axis=1)
-        res = classification_report(np.rint(y_val), np.rint(pred_seg), output_dict = True ) #np.rint(np.argmax(pred_seg, axis=1))
-        acc = accuracy_score(np.rint(y_val), np.rint(pred_seg)) #np.rint(np.argmax(pred_seg, axis=1))
+        res = classification_report(np.rint(y_val), np.rint(pred_seg), output_dict = True ) 
+        acc = accuracy_score(np.rint(y_val), np.rint(pred_seg)) 
         self.add_result(res, acc,True  )
         print('result', res)
         print('acc', acc)
@@ -554,9 +554,9 @@ def train_severity(args):
     model_file = os.path.join(subfolder, "model.json")
     val_results = Results_level(file_result_segments, file_result_patients, subfolder )
     datas = Data(args.input_data, 1, 100, pk_level= True)
-    lr = 0.0002
+    lr = 0.001
     for i in range(0,10):
-        model = multiple_transformer_5_level(datas.X_data.shape[2])
+        model = multiple_transformer_3_level(datas.X_data.shape[2])
         model_json = model.to_json()
         with open(model_file, "w") as json_file:
             json_file.write(model_json)
