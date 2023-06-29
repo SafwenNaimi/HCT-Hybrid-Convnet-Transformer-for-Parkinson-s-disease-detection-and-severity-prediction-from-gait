@@ -1,4 +1,4 @@
-# HCT-Hybrid-Convnet-Transformer-architecture-for-PD-detection-and-severity-prediction
+# HCT: Hybrid Convnet-Transformer for Parkinson’s disease detection and severity prediction from gait
 
 
 
